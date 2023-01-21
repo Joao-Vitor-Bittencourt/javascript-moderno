@@ -12,7 +12,7 @@ console.log(new minhaFuncao());
 
 //  Não podemos atribuir um construtor à uma arrow function.
 const minhaArrowFuncao = () => {
-
+  this.lastname = 'Silva'
 };
 
 //Exemplo 1
