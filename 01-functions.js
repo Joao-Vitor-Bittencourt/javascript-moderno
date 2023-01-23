@@ -46,3 +46,28 @@ function myFunctionExample2() {
 // Já aqui, como nossa arrow function está no contexto da nossa função, ela usará o objeto this da função.
 
 console.log(new myFunctionExample2());
+
+//FORMAS DE ARROW FUNCTIONS
+
+//Short Syntax
+
+const oláMundo = () => 'Hello World!';
+
+//Podemos usar parenteses quando queremos quebrar linhas
+
+const soma = (algumNumero) => (
+  algumNumero >= 10
+    ? 'Maior ou igual a 10'
+    : 'Menor que 10'
+);
+
+//Retornar um objeto diretamente;
+
+const pegarUsuario = () => ({
+  id: 123,
+  nome: 'joao'
+});
+
+const funcao = () => {
+  console.log('corpo da função');
+}
